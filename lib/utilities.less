@@ -1,0 +1,143 @@
+//
+// Utility classes
+// --------------------------------------------------
+
+
+// Floats
+// -------------------------
+
+.clearfix {
+  .clearfix();
+}
+.center-block {
+  .center-block();
+}
+.pull-right {
+  float: right !important;
+}
+.pull-left {
+  float: left !important;
+}
+
+
+// Toggling content
+// -------------------------
+
+// Note: Deprecated .hide in favor of .hidden or .sr-only (as appropriate) in v3.0.1
+.hide {
+  display: none !important;
+}
+.show {
+  display: block !important;
+}
+.invisible {
+  visibility: hidden;
+}
+.text-hide {
+  .text-hide();
+}
+
+
+// Hide from screenreaders and browsers
+//
+// Credit: HTML5 Boilerplate
+
+.hidden {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+
+// For Affix plugin
+// -------------------------
+
+.affix {
+  position: fixed;
+}
+
+.left {
+	float:left;
+}
+.right {
+	float:right;
+}
+.ta-right{
+	text-align:right !important;
+}
+.ta-left{
+	text-align:left;
+}
+.ta-r-right{
+	text-align:right !important;
+}
+.ta-r-left{
+	text-align:left;
+}
+.ta-center {
+	text-align:center;
+}
+.ta-center-important {
+	text-align:center !important;
+}
+@media (min-width:@screen-xs) {
+	.ta-xs-center {
+		text-align:center !important;
+		
+	}
+}
+@media (max-width:@screen-sm-min) {
+  .ta-r-right{
+  	text-align:none !important;
+  }
+  .ta-r-left{
+  	text-align:none;
+  }
+}
+
+.lists {
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+
+.nopad {
+	padding:0!important;
+}
+.nopad-left {
+	margin-right:-15px;
+}
+.nopad-right {
+	margin-left:-15px;
+}
+
+@media (max-width:@screen-md) {
+	.nopad-left {
+		margin-right:0px;
+	}
+	.nopad-right {
+		margin-left:0px;
+	}
+}
+
+.nopad-row {
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
+
+.pd-top {
+	padding-top:10px;
+}
+.mt-20 {
+	margin-top:20px;
+}
+.mt-10 {
+	margin-top:10px;
+}
+.bt {
+	border-top:1px solid #eee;
+	padding-top:20px;
+}
+
+.rel {
+	position:relative;
+}
